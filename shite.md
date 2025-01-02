@@ -1,1 +1,1 @@
-GIT is shite
+GIT is scary
