@@ -2,9 +2,9 @@
 
 
 * {
-  outline: 1px solid green;
+  outline: 1px solid rgb(48, 158, 102);
   box-sizing: border-box;
-  background: rgb(239, 239, 239);
+  background: rgb(236, 245, 255)
   
 }
 
@@ -42,4 +42,10 @@
   height: 95%; 
   margin: 2px;
   
+}
+
+.button {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
 }
