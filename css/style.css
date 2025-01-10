@@ -1,40 +1,45 @@
-body {
-    font-family: Georgia;
-    font-size: 16px;
-    margin: 0 auto;   /* center content */
-    max-width: 800px; /* limit width */
-    line-height: 1.5;
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
+
+
+
+* {
+  outline: 1px solid green;
+  box-sizing: border-box;
+  background: rgb(239, 239, 239);
   
-  p {
-    margin-bottom: 12px;
-  }
-  h1,h2,h3 {
-    font-weight: 400;
-  }
-  h1 {
-    font-size: 36px;
-    margin-bottom: 0px;
-  }
-  h2 {
-    font-size: 32px;
-    border: 1px;
-    border-color: gray;
-    margin-bottom: 8px;
-  }
+}
+
+
+.header {
+  height: 5%;
+  margin: 2px;
+
+}
+
+.mainbody {
+  height: auto;
+  width: auto;
+}
+
+.sidebar {
+  display: inline-block;
+  width: 2%;
+  height: 95%;
+  margin: 2px;
+}
+
+.vaclist {
+ /* outline: 1px solid green; */
+ display: inline-block;
+ width: 15%;
+ height: 95%;
+ margin: 2px;
+}
+
+.body {
   
-  #header h2.header-title {
-    font-size: 18px;
-    border-bottom: none;
-    margin-bottom: 10px;
-  }
-  #header {
-    margin-bottom: 32px;
-    text-align: center;
-  }
-  #footer {
-    margin-top: 64px;
-    text-align: center;
-  }
+  display: inline-block;
+  width: 82%;
+  height: 95%; 
+  margin: 2px;
+  
+}
