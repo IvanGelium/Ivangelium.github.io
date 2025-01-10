@@ -2,50 +2,105 @@
 
 
 * {
-  outline: 1px solid rgb(48, 158, 102);
+  /* outline: 1px solid rgb(48, 158, 102); */
   box-sizing: border-box;
-  background: rgb(236, 245, 255)
-  
+  margin: 0%;
+  font-family:Arial, Helvetica, sans-serif;
+
 }
 
-
+.main {
+  height: 100%;
+  width: 100%;
+  background: rgb(230, 230, 230);
+}
+a:visited{
+  color: aliceblue;
+}
+/* Header start */
+/* .header,.headerhead,.signsec,.logo,.soclinks,
+.heeadfoot,.short-desc,.header-image {
+  background: rgb(58, 86, 69);
+} */
 .header {
-  height: 5%;
-  margin: 2px;
+  height: 25%;
+  width: 50%;
+  margin-left: 25%;
+  background: rgb(58, 86, 69);
+  color:aliceblue;
 
 }
 
-.mainbody {
-  height: auto;
-  width: auto;
+.headerhead {
+  width: 80%;
+  height: 20%;
+  margin-left: 10%;
+  display: flex;
+}
+.logo {
+  flex-basis: 70%;
+  align-self: flex-start;
+}
+.soclinks {
+  flex-basis: 50%;
+  font-size: x-large;
+  align-self: center;
 }
 
-.sidebar {
-  display: inline-block;
-  width: 2%;
-  height: 95%;
-  margin: 2px;
-}
-
-.vaclist {
- /* outline: 1px solid green; */
- display: inline-block;
- width: 15%;
- height: 95%;
- margin: 2px;
-}
-
-.body {
+.headerfoot {
+  display: flex;
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
   
-  display: inline-block;
-  width: 82%;
-  height: 95%; 
-  margin: 2px;
   
 }
 
-.button {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
+.short-desc {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
 }
+
+.header-image {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+/* Header end */
+
+/* meat start */
+.meat {
+  display: flex;
+  height: 25%;
+  width: 50%;
+  margin-left: 25%;
+  background: rgb(252, 252, 252);
+}
+/* meat end */
+
+/* supinf start */
+.supinf {
+  display: flex;
+  height: 25%;
+  width: 50%;
+  margin-left: 25%;
+  background: rgb(216, 216, 219);
+}
+/* supinf end */
+
+/* signsec start */
+.signsec {
+  display: flex;
+  height: 25%;
+  width: 50%;
+  margin-left: 25%;
+  background: rgb(58, 86, 69);
+}
+/* signsec end */
