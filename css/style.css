@@ -13,6 +13,7 @@
   height: 100%;
   width: 100%;
   background: rgb(230, 230, 230);
+
 }
 a:visited {
   color: aliceblue;
@@ -27,6 +28,7 @@ a {
   height: 25%;
   width: 50%;
   margin-left: 25%;
+  min-width: 1000px;
 }
 /* Header start */
 /* .header,.headerhead,.signsec,.logo,.soclinks,
