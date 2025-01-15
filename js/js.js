@@ -1,14 +1,14 @@
 const win = "You win, machoboy!"
 const lose = "You lose, sucker!"
-let bot;
 
 function getPlayer () {
     playerChoice = prompt("Введите номер символа: ","(камень - 1|ножницы - 2|бумага - 3");
+    console.log ("Player выкинул "+ playerChoice);
     return +playerChoice;
 }
 
 function validatePlayerChoice(playerChoice) {
-    if (playerChoice < 0 || playerChoice > 3){
+    if (playerChoice <= 0 || playerChoice > 3){
         return true;
     } else if (Number.isNaN(playerChoice) || typeof 1 !== typeof playerChoice) {
         return true;
