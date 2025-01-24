@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, papper, scissors</title>
     <link rel="stylesheet" href="../css/rps.css">
-    <script src="../js/rps.js"></script>
 </head>
-<body>
+<body" >
+    
     <!-- header -->
     <div class="header boxv">
             <h1>Rock, papper, scissors</h1>
@@ -16,17 +16,46 @@
     <!-- middle -->
      <div class="bg">
         <div class="middle boxh">
-            <div class="test">
-                x
+            <div class="div-container boxv">
+                <div class="img-base" id="player-cont"></div>
+                <h1>Player</h1>
             </div>
-            <div class="test">
-                x
+            <div class="div-container boxv m" id="vs-cont">
+                <h1 class="vs">VS</h1>
             </div>
-            <div class="test">
-                x
+            <div class="div-container boxv">
+                <div class="img-base" id="bot-cont"></div>
+                <h1>Bot</h1>
             </div>
+        </div>
+         <!-- ender -->
+        <div class="ender boxv">
+            <div class="buttons boxh ">
+                <div class="button" id="rock">
+                    <button class="R">
+                        <img src="../img/rock.svg" alt="rock" class="R">
+                    </button>
+                </div>
+                <div class="button" id="papper">
+                    <button class="P">
+                        <img src="../img/papper.svg" alt="papper" class="P">
+                    </button>
+                </div>
+                <div class="button" id="scissors">
+                    <button class="S">
+                        <img src="../img/scissor.svg" alt="scissor" class="S">
+                    </button>
+                </div>
+            </div>
+            <div class="desc">
+                <h3>
+                    Don't forget drink water and make break every 30 minutes
+                </h3>
+            </div>
+
         </div>
      </div>
 
+    <script src="../js/rps.js"></script>
 </body>
 </html>

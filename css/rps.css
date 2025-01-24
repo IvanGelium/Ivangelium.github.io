@@ -5,13 +5,21 @@
     margin: 0%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:azure;
-    outline: 1px solid white;
+    /* outline: 1px solid white; */
+}
+
+#player-cont {
+    display: flex;
+}
+
+#bot-cont {
+    display: flex;
 }
 
 .bg{
     background-color: #414141;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
 }
 
 .boxv {
@@ -19,6 +27,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
     
 }
 
@@ -29,11 +38,14 @@
     justify-content: center;
     flex-basis: 10%;
     gap: 100px;
+    
 
     
 }
 
-.test {
+
+
+.div-container {
     display: flex;
     flex-basis: 20%;
     
@@ -52,4 +64,59 @@
     min-height: 100px;
     height: 50%;
     border-bottom: 5px solid black;
+    background-color: #2e2e2e;
+}
+
+.ender {
+    min-height: 50px;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.buttons {
+    flex: 0 1 100px;
+    min-width: 550px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button {
+    flex: 1 1 30px;
+    background: #000;
+
+}
+
+button {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    
+}
+
+.desc {
+    flex: 0.8 1 10px;
+}
+
+.img-base {
+    width: 100%;
+    height: 90%;
+    
+}
+
+.vs {
+    font-size: 15em;
+    color: rgb(209, 135, 50);
+    
+}
+
+.m {
+    align-items: center;
+    justify-content: center;
 }
