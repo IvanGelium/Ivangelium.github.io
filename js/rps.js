@@ -9,21 +9,21 @@ let winner;
 
 const rockSvg = document.createElement("img");
 rockSvg.className = "temperary";
-rockSvg.src = "../img/rock.svg";
+rockSvg.src = "img/rock.svg";
 rockSvg.style.height = "100%";
 rockSvg.style.width = "100%" ;
 // botPlace.appendChild(rockSvg);
 
 const papperSvg = document.createElement("img");
 papperSvg.className = "temperary";
-papperSvg.src = "../img/papper.svg";
+papperSvg.src = "img/papper.svg";
 papperSvg.style.height = "100%";
 papperSvg.style.width = "100%" ;
 // playerPlace.appendChild(papperSvg);
 
 const scissorsSvg = document.createElement("img");
 scissorsSvg.className = "temperary";
-scissorsSvg.src = "../img/scissor.svg";
+scissorsSvg.src = "img/scissor.svg";
 scissorsSvg.style.height = "100%";
 scissorsSvg.style.width = "100%" ;
 // playerPlace.appendChild(scissorsSvg);
@@ -32,21 +32,21 @@ scissorsSvg.style.width = "100%" ;
 
 const pRockSvg = document.createElement("img");
 pRockSvg.className = "temperary";
-pRockSvg.src = "../img/rock.svg";
+pRockSvg.src = "img/rock.svg";
 pRockSvg.style.height = "100%";
 pRockSvg.style.width = "100%" ;
 // botPlace.appendChild(pRockSvg);
 
 const pPapperSvg = document.createElement("img");
 pPapperSvg.className = "temperary";
-pPapperSvg.src = "../img/papper.svg";
+pPapperSvg.src = "img/papper.svg";
 pPapperSvg.style.height = "100%";
 pPapperSvg.style.width = "100%" ;
 // playerPlace.appendChild(pPapperSvg);
 
 const pScissorsSvg = document.createElement("img");
 pScissorsSvg.className = "temperary";
-pScissorsSvg.src = "../img/scissor.svg";
+pScissorsSvg.src = "img/scissor.svg";
 pScissorsSvg.style.height = "100%";
 pScissorsSvg.style.width = "100%" ;
 // playerPlace.appendChild(pScissorsSvg);
